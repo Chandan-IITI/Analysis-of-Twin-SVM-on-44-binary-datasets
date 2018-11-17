@@ -1,6 +1,6 @@
 # Analysis-of-Twin-SVM-on-44-Binary-datasets
 
-Code belongs to the paper: Comprehensive Evaluation of Twin SVM based Classifiers on UCI 2-Class Datasets
+Code belongs to the paper: "Comprehensive Evaluation of Twin SVM based Classifiers on UCI 2-Class Datasets"
 
 Please follow the below mentioned steps to reproduce the results of the paper:
 
