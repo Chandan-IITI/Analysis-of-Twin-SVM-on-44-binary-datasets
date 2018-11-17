@@ -8,7 +8,7 @@ Please follow the below mentioned steps to reproduce the results of the paper:
 2. Each folder is for one classifier and each folder have three .m extension files. For the execution and get the result you just need 
    to run the all_eval.m. However, you need to modify only one line in the remaining two folders kfold_eval.m and seperate_eval.m before      execution as follows:
    
-    Add the path of your downloaded datasets folder in the variable 'datapath' as below:
+    Add the path of your downloaded datasets folder in the variable 'datapath' as follows:
 
    datapath = 'provide the path of your dataset';
 
