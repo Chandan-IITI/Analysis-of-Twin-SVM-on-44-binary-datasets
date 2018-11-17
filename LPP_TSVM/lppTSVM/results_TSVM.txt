@@ -1,0 +1,1 @@
+example file: tic;err =       30 of 287,mu=   0.0625,c =       10

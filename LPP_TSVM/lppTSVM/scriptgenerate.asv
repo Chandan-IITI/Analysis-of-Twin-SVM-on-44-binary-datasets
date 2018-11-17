@@ -1,0 +1,36 @@
+%% To generate crossplane dataset
+clc;
+clear all;
+close all;
+train_size = 250;
+test_size = 250;
+for load_file = 1:1    %% initializing variables case level and loading file
+    switch load_file
+        case 1
+           file = 'crossplane';
+                  x = rand(train_size,1);
+                  p = rand(test_size,1); 
+                  noise = normrnd(0,0.05,train_size,1);              
+                  x1 = 0+x*1;
+                  y1 = x1 + 2;                  
+                  y1 = y1 + noise;
+                  a1 = [x1,y1,];
+                  save crossplanetrain.txt a1 -ASCII;                  
+                  p1 = 0+p*1;                 
+                  q1 = -p1 + 2;
+                  b1 = [p1,q1];
+                  save crossplanetest.txt b1 -ASCII;
+				  b = [a1;b1];
+				  save crossplane.txt b -ASCII;    
+           
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+             
+      
+    end
+end
