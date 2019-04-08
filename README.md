@@ -1,6 +1,8 @@
 # Analysis-of-Twin-SVM-on-44-Binary-datasets
 
 Code belongs to the paper: "Comprehensive Evaluation of Twin SVM based Classifiers on UCI Datasets"
+This repository provides code for binary datasets. For multi-class datasets, go to the following repository:
+'Link Coming Soon'
 
 Please follow the below mentioned steps to reproduce the results of the paper:
 
