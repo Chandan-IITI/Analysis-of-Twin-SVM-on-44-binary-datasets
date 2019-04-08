@@ -1,4 +1,4 @@
-# Analysis-of-Twin-SVM-on-90-datasets
+# Analysis-of-Twin-SVM-on-44-Binary-datasets
 
 Code belongs to the paper: "Comprehensive Evaluation of Twin SVM based Classifiers on UCI Datasets"
 
